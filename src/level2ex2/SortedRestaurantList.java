@@ -1,10 +1,11 @@
-package tascas103level2ex2;
+package level2ex2;
 
 import java.util.Comparator;
 
-import tascas103level2ex1.Restaurant;
+import level2ex1.Restaurant;
 
 public class SortedRestaurantList implements Comparator<Restaurant> {
+	
 	@Override
     public int compare(Restaurant r1, Restaurant r2) {
         

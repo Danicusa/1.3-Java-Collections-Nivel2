@@ -1,6 +1,4 @@
-package tascas103level1ex1;
-
-import java.util.Objects;
+package level1ex1;
 
 public class Month {
 	private String name;

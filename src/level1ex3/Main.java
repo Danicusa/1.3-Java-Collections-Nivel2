@@ -1,4 +1,4 @@
-package tascas103level1ex3;
+package level1ex3;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -14,7 +14,6 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String name = "";
 		String capitalAnswer = "";
 		String capital = "";

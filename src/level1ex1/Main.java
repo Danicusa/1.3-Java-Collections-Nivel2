@@ -1,4 +1,4 @@
-package tascas103level1ex1;
+package level1ex1;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -7,7 +7,6 @@ import java.util.Iterator;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		ArrayList<Month> months = new ArrayList<Month>();
 		
 		months.add(new Month("January"));
@@ -43,9 +42,16 @@ public class Main {
 		Iterator<Month> it3 = hash1.iterator();
 		
 		System.out.println("\n");
+		System.out.println("ITERATOR:");
 		while(it3.hasNext()) {
 			String name = it3.next().getName();
 			System.out.println(name);
+		}
+		
+		System.out.println("\n");
+		System.out.println("FOR:");
+		for(Month month : hash1) {
+			System.out.println(month.getName());
 		}
 	}
 }

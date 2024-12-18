@@ -1,7 +1,5 @@
-package tascas103level2ex1;
+package level2ex1;
 
-import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Objects;
 
 public class Restaurant {
